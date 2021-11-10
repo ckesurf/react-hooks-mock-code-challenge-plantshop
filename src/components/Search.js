@@ -6,6 +6,8 @@ function Search({ handleSearch }) {
       <label htmlFor="search">Search Plants:</label>
       <input
         type="text"
+        value={searchFilter}
+        onChange={handleSearchFilter}
         id="search"
         placeholder="Type a name to search..."
         onChange={handleSearch}

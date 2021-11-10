@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <PlantPage />
+      <PlantPage plants={plants} handleAddPlant={handleAddPlant} />
     </div>
   );
 }
